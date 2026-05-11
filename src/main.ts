@@ -3,7 +3,7 @@ export const  app = express()
 
 
 app.use(express.json())
-app.post('/',(req,res)=>{
+app.post('/sum',(req,res)=>{
     const a = req.body.a 
     const b = req.body.b 
 
